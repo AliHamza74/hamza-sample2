@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1e1e1e;
+    color: #ffffff;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #2b2b2b;
+}
+
+.logo {
+    color: #ff3366;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar a {
+    color: #ffffff;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px 50px;
+}
+
+.hero-text {
+    max-width: 50%;
+}
+
+.hero-text h2 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.hero-text h2 span {
+    color: #ff3366;
+}
+
+.hero-image{
+    background: linear-gradient(to bottom right, rgba(255, 255, 255, 0.186) , rgba(0, 0, 0, 0.219));
+    border-radius: 10px;
+    width: 350px;
+    height: 300px;
+    position: relative;
+}
+
+.hero-image img{
+    height: 450px;
+    object-fit: cover;
+    position: absolute;
+    top: -150px;
+    z-index: 999;
+}
+
+.subtitle {
+    font-size: 1.5rem;
+    color: #ff3366;
+    margin-bottom: 20px;
+}
+
+.description {
+    margin: 20px 0;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+.hire-me-btn {
+    background-color: #ff3366;
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.hire-me-btn:hover {
+    background-color: #e62e5d;
+}
+
+.skills-social {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 50px;
+    background-color: #2b2b2b;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+#home {
+    margin: 100px;
+}
+
+.skills-social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-links a i{
+    font-size: 24px;
+    margin: 0 10px;
+    color: white;
+}
+
+
+.social-links a i:hover{
+    /* align-items: center; */
+    font-size: 24px;
+    margin: 0 10px;
+    color: #ff3366;
+}
+
+.skills h3 {
+    font-size: 1.3rem;
+    color: #ffffff;
+}
+
+.portfolio, .testimonials, .blog, .contact {
+    padding: 60px 50px;
+    text-align: center;
+}
+
+.portfolio h3, .testimonials h3, .blog h3, .contact h3 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.portfolio-grid, .testimonial-cards, .blog-posts {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.portfolio-item, .blog-post, .testimonial-card {
+    background-color: #2b2b2b;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.portfolio-item img, .blog-post img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #444;
+    background-color: #333;
+    color: #fff;
+}
+
+.contact-form button {
+    background-color: #ff3366;
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.contact-form button:hover {
+    background-color: #e62e5d;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #2b2b2b;
+}
